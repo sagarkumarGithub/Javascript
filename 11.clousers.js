@@ -60,3 +60,4 @@ let catchAdd = add();
 console.log(catchAdd);
 
 catchAdd();
+

@@ -1,15 +1,15 @@
 /* 
         Array
       ---------
-*/      
+*/
 
 // declaring an array
 var cars = [];
 
 // declaring + initializing arr
-var cars = ["BMW","AUDI","HONDA",1,2,3,true,undefined];
+var cars = ["BMW", "AUDI", "HONDA", 1, 2, 3, true, undefined];
 // printing an array
-console.log(cars);
+console.cars;
 
 // accesing elements in a array
 console.log(cars[3]);
@@ -46,7 +46,6 @@ console.log(cars);
 cars.unshift("tata");
 console.log(cars);
 
-
 /*
 -----------------------------------------
                 Objects
@@ -71,7 +70,7 @@ let student = {
   },
 };
 
-// objects can be accessed in two ways 
+// objects can be accessed in two ways
 // 1. dot notation -> student.name = sagar
 // 2. bracket notation -> student[name] -> sagar ( if variable is space seprated )
 
@@ -110,19 +109,19 @@ var obj = {}; // empty object
 console.log(obj);
 
 var person = {
-  name:"sagar",
-  age:23,
-  phone:3234349059,
-  isMale:true,
-  hieght:"170cm",
-  "school name":"MBN"
-}
+  name: "sagar",
+  age: 23,
+  phone: 3234349059,
+  isMale: true,
+  hieght: "170cm",
+  "school name": "MBN",
+};
 
 console.log(person);
 
 // How to access the object
 //---------------------------
-// 1. dot notation 
+// 1. dot notation
 console.log(person.name);
 console.log(person.phone);
 
@@ -132,20 +131,22 @@ console.log(person["school name"]);
 
 // nesting objects
 var captainAmerica = {
-  firstName : "steve",
-  lastName:"rogers",
-  friends:["bucky","tony stark","bruce banner"],
-  age:122,
-  isAvenger:true,
-  address:{
-    state:"manhattan",
-    city:"new york",
-    country:"usa"
+  firstName: "steve",
+  lastName: "rogers",
+  friends: ["bucky", "tony stark", "bruce banner"],
+  age: 122,
+  isAvenger: true,
+  address: {
+    state: "manhattan",
+    city: "new york",
+    country: "usa",
   },
-  sayHii : function(){
-    console.log(`Hello my name is captain  ${captainAmerica.firstName} ${captainAmerica.lastName}`)
-  }
-}
+  sayHii: function () {
+    console.log(
+      `Hello my name is captain  ${captainAmerica.firstName} ${captainAmerica.lastName}`
+    );
+  },
+};
 
 console.log(captainAmerica.friends);
 console.log(captainAmerica.friends[1]);
@@ -153,11 +154,11 @@ console.log(captainAmerica.friends[1]);
 console.log(captainAmerica.sayHii);
 captainAmerica.sayHii();
 
-// nested aobject accessing 
+// nested aobject accessing
 console.log(captainAmerica.address.city);
 
 // looping over objects
-for(let key in captainAmerica){
+for (let key in captainAmerica) {
   console.log(key);
   console.log(captainAmerica[key]);
 }
@@ -165,4 +166,3 @@ for(let key in captainAmerica){
 // deleting a key from object
 delete captainAmerica.age;
 console.log(captainAmerica);
-

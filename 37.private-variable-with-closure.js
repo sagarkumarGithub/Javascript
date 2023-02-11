@@ -19,3 +19,4 @@ myFunction.setName("Sagar");
 console.log(myFunction.getName());
 
 console.log(myFunction.name);
+

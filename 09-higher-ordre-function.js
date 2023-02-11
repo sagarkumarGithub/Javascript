@@ -32,25 +32,32 @@
 // 1. Map
 // --------
 
-let myArr = [1, 2, 3, 4, 5];
-let mappedArr = myArr.map(function (x) {
-  return x * x;
-});
-console.log(myArr);
-console.log("mapped array: ", mappedArr);
+// let myArr = [1, 2, 3, 4, 5];
+// let mappedArr = myArr.map(function (x) {
+//   return x * x;
+// });
+// console.log(myArr);
+// console.log("mapped array: ", mappedArr);
 
 // 2. Filter
 // ----------
 
-let filteredArr = myArr.filter(function (x) {
-  return x % 2 === 0;
-});
-console.log("filtered Array: ", filteredArr);
+// let filteredArr = myArr.filter(function (x) {
+//   return x % 2 === 0;
+// });
+// console.log("filtered Array: ", filteredArr);
 
 // 3. Reduce
 // -----------
 
-let reducedArr = myArr.reduce(function (accumulator, x) {
-  return accumulator + x;
-}, 0);
-console.log("Sum is : ", reducedArr);
+// let reducedArr = myArr.reduce(function (accumulator, x) {
+//   return accumulator + x;
+// }, 0);
+// console.log("Sum is : ", reducedArr);
+
+// let arr = [1, 2, 3, 4, 5];
+// let double = arr.filter(function (val) {
+  
+// });
+// console.log(arr);
+// console.log(double);

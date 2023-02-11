@@ -60,31 +60,32 @@
 // "use strict";
 
 // case-1:
-// console.log(this);
+console.log(this);
 
 // case-2:
-// function showThis() {
-//   console.log(this);
-// }
-// showThis();
+function showThis() {
+  console.log(this);
+}
+showThis();
 
 // case-3:
-// let obj = {
-//   name: "adam",
-//   f: function () {
-//     console.log(this);
-//   },
-// };
-// obj.f();
+let obj = {
+  name: "adam",
+  f: function () {
+    console.log(this);
+  },
+};
+obj.f();
 
 // case-4:
-// let obj = {
-//   name: "adam",
-//   f: function () {
-//     function g() {
-//       console.log(this);
-//     }
-//     g();
-//   },
-// };
-// obj.f();
+let obj1 = {
+  name: "adam",
+  f: function () {
+    function g() {
+      console.log(this);
+    }
+    g();
+  },
+};
+obj1.f();
+

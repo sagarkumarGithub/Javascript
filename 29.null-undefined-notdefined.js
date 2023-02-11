@@ -25,16 +25,16 @@
     console.log(formObj.age) -> undefined
 */
 
-let a = 10;
-console.log(a);
+// let a = 10;
+// console.log(a);
 
 // undefined
 //-----------
 
 // hoisting -> using var if value is accesed before assignment.
 // value of a will be undefined -> value is not defined till now. i.e -> we have variable but not value.
-console.log(b);
-var b = 10;
+// console.log(b);
+// var b = 10;
 
 // not defined
 //-------------
@@ -46,28 +46,28 @@ var b = 10;
 //------------
 
 // it will return undefined. -> automatically
-function test1() {
-  // returns nothing
-}
-console.log(test1());
+// function test1() {
+//   // returns nothing
+// }
+// console.log(test1());
 
 // it will return null -> intentionally
-function test2() {
-  return null;
-}
-console.log(test2());
+// function test2() {
+//   return null;
+// }
+// console.log(test2());
 
 // suppose we use that property from global object that doesn't exist -> will return undefined.
-let c = global.v;
-console.log(c);
+// let c = global.v;
+// console.log(c);
 
 // but if we use that object that doesn't exist -> will return not defined.
 // let d = personn.age;
 // console.log(d);
 
 // if person is defined but age is not defined then -> show undefined.
-let person = {
-  age: 24,
-};
-console.log(person.name);
+// let person = {
+//   age: 24,
+// };
+// console.log(person.name);
 

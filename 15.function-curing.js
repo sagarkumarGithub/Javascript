@@ -1,6 +1,7 @@
 /*
     Curring
     -------
+    * It is a technique in functional programming, transformation of the function of multiple arguments into several functions of a single argument in sequence. 
     * we can make a copy of a function or curry is known as curring.
     * function curry how we make a copy of a function and call for different parameter.
     * two method:

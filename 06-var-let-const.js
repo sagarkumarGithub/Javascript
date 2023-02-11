@@ -125,6 +125,4 @@ console.log(fruits);
   var -> not-TDZ
   let -> TDZ
   const -> TDZ
-   
-
 */

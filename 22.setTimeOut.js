@@ -7,6 +7,8 @@
     - it is not function of javascript. it is provided by environment on which js is run.
     - node or browser provide set Time Out.
 
+
+    
     - Set time out is a function that take a function in a callback and execute that function when we want(after some interval of time).
 */
 

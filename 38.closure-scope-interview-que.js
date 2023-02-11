@@ -40,24 +40,24 @@
     que -> find the output ?
 */
 
-// function createIncrement() {
-//   let count = 0;
-//   function increment() {
-//     count++;
-//   }
-//   let message = `Count is ${count}`;
-//   function log() {
-//     console.log(message);
-//   }
+function createIncrement() {
+  let count = 0;
+  function increment() {
+    count++;
+  }
+  let message = `Count is ${count}`;
+  function log() {
+    console.log(message);
+  }
 
-//   return [increment, log];
-// }
+  return [increment, log];
+}
 
-// const [increment, log] = createIncrement();
-// increment();
-// increment();
-// increment();
-// log(); // What is logged
+const [increment, log] = createIncrement();
+increment();
+increment();
+increment();
+log(); // What is logged
 
 /*
    Explanation
@@ -93,12 +93,12 @@
 // sollution-2
 //--------------
 
-for (var i = 0; i < 3; i++) {
-  delay(i);
-}
+// for (var i = 0; i < 3; i++) {
+//   delay(i);
+// }
 
-function delay(i) {
-  setTimeout(function log() {
-    console.log(i);
-  }, 1000);
-}
+// function delay(i) {
+//   setTimeout(function log() {
+//     console.log(i);
+//   }, 1000);
+// }

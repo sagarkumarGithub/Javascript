@@ -7,13 +7,13 @@
 //  ----------------------
 
 // == double equals -> loose comparison
-let check = 2 == "2";
-console.log(check);
+// let check = 2 == "2";
+// console.log(check);
 // checks only value
 
 // === triple equals -> strong comparision
-let checkk = 2 === "2";
-console.log(checkk);
+// let checkk = 2 === "2";
+// console.log(checkk);
 // checks value along with type.
 
 // --------------------------------------------------------
@@ -27,8 +27,8 @@ console.log(checkk);
     * NaN
     * Undefined
 
-   -> return falsy 
-    ---------------
+   -> return truthy 
+    ----------------
     * number other then 0 
     * {} (object / empty object) 
     * [] (array / empty array)
@@ -36,5 +36,4 @@ console.log(checkk);
     * variable 
 
 */
-
 
